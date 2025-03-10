@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trendify</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <h1>Trentify</h1>
+      <div class="navbar-links">
+        <p class="side-navbar-link"><a href="index.html">Home </a></p>
+        <p class="side-navbar-link">
+          <a href="collection.html">Collections </a>
+        </p>
+        <p class="side-navbar-link"><a href="contact.html">Contact </a></p>
+      </div>
+      <div class="navbar-menu-toggle" onclick="showNavbar()">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+
+    <div class="contact-container">
+      <h2>Contact Us</h2>
+      <form class="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <div class="footer">
+      <div class="footer-container">
+        <div class="footer-box-1"></div>
+        <h2 class="headingText">Trentify</h2>
+        <p>Stay in Style, Stay in Trend — Only at Trendify</p>
+        <div class="footer-icon-container">
+          <i class="fa-brands fa-instagram" style="color: #ffffff"></i>
+          <i class="fa-brands fa-twitter" style="color: #ffffff"></i>
+          <i class="fa-brands fa-facebook" style="color: #ffffff"></i>
+        </div>
+      </div>
+      <p>@2025 Trendify.com</p>
+    </div>
+
+    <script src="collection.js"></script>
+  </body>
+</html>
